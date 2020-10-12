@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/davejay99/CAT_201701204.github.io/CAT/static/css/main.553cf3ca.chunk.css",
+    "main.js": "/davejay99/CAT_201701204.github.io/CAT/static/js/main.24418e86.chunk.js",
+    "main.js.map": "/davejay99/CAT_201701204.github.io/CAT/static/js/main.24418e86.chunk.js.map",
+    "runtime-main.js": "/davejay99/CAT_201701204.github.io/CAT/static/js/runtime-main.84841647.js",
+    "runtime-main.js.map": "/davejay99/CAT_201701204.github.io/CAT/static/js/runtime-main.84841647.js.map",
+    "static/js/2.720b2cfe.chunk.js": "/davejay99/CAT_201701204.github.io/CAT/static/js/2.720b2cfe.chunk.js",
+    "static/js/2.720b2cfe.chunk.js.map": "/davejay99/CAT_201701204.github.io/CAT/static/js/2.720b2cfe.chunk.js.map",
+    "index.html": "/davejay99/CAT_201701204.github.io/CAT/index.html",
+    "precache-manifest.1f0ba081e21dc60e3d4ebc58150aa721.js": "/davejay99/CAT_201701204.github.io/CAT/precache-manifest.1f0ba081e21dc60e3d4ebc58150aa721.js",
+    "service-worker.js": "/davejay99/CAT_201701204.github.io/CAT/service-worker.js",
+    "static/css/main.553cf3ca.chunk.css.map": "/davejay99/CAT_201701204.github.io/CAT/static/css/main.553cf3ca.chunk.css.map",
+    "static/js/2.720b2cfe.chunk.js.LICENSE.txt": "/davejay99/CAT_201701204.github.io/CAT/static/js/2.720b2cfe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84841647.js",
+    "static/js/2.720b2cfe.chunk.js",
+    "static/css/main.553cf3ca.chunk.css",
+    "static/js/main.24418e86.chunk.js"
+  ]
+}
