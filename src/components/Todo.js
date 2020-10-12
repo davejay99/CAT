@@ -1,4 +1,4 @@
-  
+
 import React, { useState } from 'react';
 import TodoForm from './TodoForm';
 import { RiCloseCircleLine } from 'react-icons/ri';
@@ -9,7 +9,6 @@ const Todo = ({ todos, removeTodo, updateTodo }) => {
     id: null,
     value: ''
   });
-
   const submitUpdate = value => {
     updateTodo(edit.id, value);
     setEdit({
@@ -27,9 +26,6 @@ const Todo = ({ todos, removeTodo, updateTodo }) => {
       className={'todo-row'}
       key={index}
     >
-      <div key={todo.id}>
-        {todo.text}
-      </div>
       <div className='icons'>
         <RiCloseCircleLine
           onClick={() => removeTodo(todo.id)}
@@ -39,7 +35,15 @@ const Todo = ({ todos, removeTodo, updateTodo }) => {
           onClick={() => setEdit({ id: todo.id, value: todo.text })}
           className='edit-icon'
         />
+
+        <i className="fa fa-arrow-left" ></i>
+        <i className="fa fa-arrow-right" ></i>
       </div>
+      <div className='dash'>-</div>
+      <div className='todo-text' key={todo.id}>
+        {todo.text}
+      </div>
+
     </div>
   ));
 };

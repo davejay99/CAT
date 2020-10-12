@@ -4,8 +4,13 @@ import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <div className='todo-app'>
-      <TodoList />
+    <div className='cont'>
+      <h1 className='heading'>
+        MATHEMATICS
+      </h1>
+      <div >
+        <TodoList />
+      </div>
     </div>
   );
 }
